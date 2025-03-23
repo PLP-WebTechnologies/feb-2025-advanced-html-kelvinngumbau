@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <!-- Ordered List -->
+    <section>
+        <h2>Ordered List with decimal numbers</h2>
+        <ol type="1">
+            <li>Introduction to HTML5</li>
+            <li>Using Images</li>
+            <li>Creating Tables</li>
+            <li>Building Forms</li>
+            <li>Adding Multimedia Elements</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2 class="pexel-image">External Image from Pexels</h2>
+        <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Beautiful Nature" width="500">
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+        <h2>Contacts Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Street, City</td>
+                <td>+1234567890</td>
+                <td>johndoe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Avenue, City</td>
+                <td>+9876543210</td>
+                <td>janesmith@example.com</td>
+            </tr>
+            <tr>
+                <td>Mark Wilson</td>
+                <td>789 Boulevard, City</td>
+                <td>+1122334455</td>
+                <td>markwilson@example.com</td>
+            </tr>
+            <tr>
+                <td>Sarah Johnson</td>
+                <td>101 Road, City</td>
+                <td>+9988776655</td>
+                <td>sarahjohnson@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>202 Highway, City</td>
+                <td>+5566778899</td>
+                <td>michaelbrown@example.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <!-- Dropdown -->
+            <label for="country">Select Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <label for="web">Web Development</label>
+            <input type="checkbox" id="web" name="interest" value="Web Development">
+            <label for="security">Cybersecurity</label>
+            <input type="checkbox" id="security" name="interest" value="Cybersecurity">
+            <label for="ai">Artificial Intelligence</label>
+            <input type="checkbox" id="ai" name="interest" value="Artificial Intelligence">
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section>
+        <h2>Multimedia Elements</h2>
+        
+        <!-- Audio Element -->
+        <h3>Audio Sample</h3>
+        <audio controls>
+            <source src="audio/song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video Element -->
+        <h3>Video Sample</h3>
+        <video controls width="500">
+            <source src="video/video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us at: <a href="mailto:mwakokelvin1@gmail.com">mwakokelvin1@gmail.com</a></p>
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
